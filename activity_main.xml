@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff6978"
+    tools:context="com.example.csg.rsapp.MainActivity">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="188dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="USERNAME"
+
+        android:textColor="@android:drawable/alert_dark_frame"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@android:color/background_light"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHighlight="@android:color/background_light"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="186dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="PASSWORD"
+        android:textSize="18sp"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="344dp"
+        tools:textColor="@android:drawable/alert_dark_frame" />
+
+    <EditText
+        android:id="@+id/passedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="@android:color/background_light"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="366dp"
+        android:layout_height="40dp"
+        android:text="Sign Up"
+        android:backgroundTint="#12355b"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteY="461dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="357dp"
+        android:layout_height="44dp"
+        android:text="Sign In"
+        android:backgroundTint="#12355b"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="402dp" />
+</android.support.constraint.ConstraintLayout>
